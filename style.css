@@ -294,6 +294,16 @@ footer {
   .center {
     padding: 55px 15px 0 0;
   }
+  .btn {
+    color: #333;
+    background-color: rgb(219, 218, 218);
+    border: 1px solid black;
+  }
+
+  .btn:hover {
+    color: #38c5f0;
+    border: 1px solid white;
+  }
 }
 @media (min-width: 800px) {
   .outer-nav-container {
