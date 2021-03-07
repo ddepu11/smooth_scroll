@@ -59,7 +59,7 @@ links.forEach((link) => {
       .height;
 
     // When we click navlinks while the navbar is open
-    //So we need to ADD that outerDiv height from position
+    //So we need to ADD that outerDiv height to position
     if (navbarHeight > 87) {
       position += outerContainerHeight;
     }
